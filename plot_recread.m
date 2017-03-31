@@ -350,7 +350,7 @@ while 1
                     
                     colormap(azicolorscheme)
                     cbar = colorbar;
-                    caxis([0 360]);
+                    caxis([-180 180]);
                     title(cbar, 'Azimuth','FontSize',12)
                 end
             end
